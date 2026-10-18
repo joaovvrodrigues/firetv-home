@@ -1,0 +1,54 @@
+# Extra hosts on top of the HaGeZi Amazon tracker list, imported by the DNS
+# filter as a local file. Plain domains, one per line.
+#
+# Deliberately NOT here, because the TV needs them:
+#   atv-ext.amazon.com / ktpx.amazon.com / a4k.amazon.com   launcher content
+#   m.media-amazon.com / ecx.images-amazon.com              app tile artwork
+#   appstore-tv-prod-na.amazon.com / mas-ext / mas-sdk      app store
+#   *.googlevideo.com / youtube.com / ytimg.com             YouTube
+#
+# Prime Video: aiv-delivery.net and aiv-cdn.net appear in the HaGeZi list, so
+# manage.py remove essas entradas para preservar a reproducao do Prime.
+
+# OTA: nothing can check for or download an update
+softwareupdates.amazon.com
+dubri19p4y5b.cloudfront.net
+distro-download.amazon.com
+amzdigital-a.akamaihd.net
+amzdigitaldownloads.edgesuite.net
+device-messaging-na.amazon.com
+
+# device telemetry and registration
+arcus-uswest.amazon.com
+arcus.amazon.com
+device-metrics-us.amazon.com
+device-metrics-us-2.amazon.com
+device-metrics-us-ud.amazon.com
+det-ta-g7g.amazon.com
+det-ta-g7g.integ.amazon.com
+unagi-zaz.amazon.com
+unagi-na.amazon.com
+metrics.media-amazon.com
+
+# Alexa voice and device API
+api.amazonalexa.com
+api.eu.amazonalexa.com
+api.fe.amazonalexa.com
+avs-alexa-14-na.amazon.com
+devices.amazonalexa.com
+idc-service-ga.amazon.com
+idc-service-be.amazon.com
+idc-service-ga-fe.amazon.com
+idc-service-ga-eu.amazon.com
+mlis.amazon.com
+rafs.amazon.com
+rafs-eu.amazon.com
+rafs-fe.amazon.com
+
+# analytics pipeline (names seen in the TV's own ceviche config)
+aan.amazon.com
+fls-na.amazon.com
+todo-ta-g7g.amazon.com
+pindorama.amazon.com
+latinum.amazon.com
+dcape-na.amazon.com

@@ -1,0 +1,17 @@
+# Identificadores, backups e estado local
+.local/
+report/
+backups/
+*.log
+.env
+*.keystore
+*.jks
+*.p12
+*.pem
+*.key
+*.apk
+launcher/build/
+__pycache__/
+*.pyc
+.DS_Store
+home.conf

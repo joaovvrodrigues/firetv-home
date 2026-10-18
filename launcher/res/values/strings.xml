@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">dumbtv</string>
+    <string name="guard_label">dumbtv home button</string>
+    <string name="guard_description">Sends the HOME button to dumbtv. Reads no screen content and has no internet access.</string>
+    <string name="options">Options</string>
+    <string name="settings">Settings</string>
+    <string name="apps">Apps</string>
+    <string name="inputs">Inputs</string>
+    <string name="open_failed">Could not open that</string>
+    <string name="move">Move</string>
+    <string name="rename">Rename</string>
+    <string name="hide">Hide</string>
+    <string name="app_info">App info</string>
+    <string name="hidden_hint">Hidden. Bring it back from Options.</string>
+    <string name="save">Save</string>
+    <string name="original">Original</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="apps_on_home">Apps on home screen</string>
+    <string name="inputs_on_home">Inputs on home screen</string>
+    <string name="reset_layout">Reset order, names and hidden tiles</string>
+    <string name="amazon_home">Open Amazon\'s home screen</string>
+    <string name="about" formatted="true">Settings file: %1$s\nWallpaper: put wallpaper.jpg in that folder, then pick Background › Image file\nNo internet permission. No tracking, no ads, no accounts.\nLandscape: Chensiyuan / Wikimedia Commons, CC BY-SA 4.0. Visual adapted from tv-home, Mihir Gupta (MIT).</string>
+    <string name="reset_title">Reset the home screen layout?</string>
+    <string name="reset_message">Order, names and hidden tiles go back to default. Colors and sizes stay.</string>
+    <string name="reset">Reset</string>
+    <string name="accent_color">Accent color</string>
+    <string name="tile_size">Tile size</string>
+    <string name="app_names">App names</string>
+    <string name="clock">Clock</string>
+    <string name="inputs_row">Inputs row</string>
+    <string name="background">Background</string>
+    <string name="image_dim">Image dim</string>
+    <string-array name="accent_names">
+        <item>White</item>
+        <item>Blue</item>
+        <item>Cyan</item>
+        <item>Green</item>
+        <item>Amber</item>
+        <item>Red</item>
+        <item>Pink</item>
+        <item>Violet</item>
+    </string-array>
+    <string-array name="tile_names">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    <string-array name="label_names">
+        <item>On focus</item>
+        <item>Always</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="clock_names">
+        <item>System</item>
+        <item>24-hour</item>
+        <item>12-hour</item>
+    </string-array>
+    <string-array name="input_names">
+        <item>Shown</item>
+        <item>Hidden</item>
+    </string-array>
+    <string-array name="background_names">
+        <item>Black</item>
+        <item>Graphite</item>
+        <item>Midnight</item>
+        <item>Image file</item>
+        <item>Landscape</item>
+    </string-array>
+    <string-array name="dim_names">
+        <item>0%</item>
+        <item>20%</item>
+        <item>40%</item>
+        <item>60%</item>
+        <item>80%</item>
+    </string-array>
+    <string name="good_morning">GOOD MORNING</string>
+    <string name="good_afternoon">GOOD AFTERNOON</string>
+    <string name="good_evening">GOOD EVENING</string>
+    <string name="dock_hint">%1$d APPS  ·  ◀ ▶ NAVIGATE  ·  MENU ORGANIZE</string>
+</resources>

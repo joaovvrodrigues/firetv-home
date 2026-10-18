@@ -1,0 +1,77 @@
+# Pacotes candidatos a DESATIVACAO; nunca desinstalar. Fire OS 7.
+# Protection varies per build: anything that answers "Cannot disable a protected
+# package" belongs in protected.txt instead. Keep this list to things that only
+# ever do ads, telemetry, experiments, promo or Alexa work.
+
+# --- ads and targeting ---
+com.amazon.tv.acr                      # Automatic Content Recognition: fingerprints what's on screen, HDMI included
+com.amazon.hybridadidservice           # advertising ID
+com.amazon.shoptv.client               # shopping on the TV
+com.amazon.sneakpeek                   # autoplaying promos
+com.amazon.minitv.android.app          # ad-supported video service
+com.amazon.media.recommendations       # sponsored rows
+com.amazon.tahoe                       # paints the ad/content tiles on Amazon's home
+com.amazon.privacypassservice          # ad-token service
+com.amazon.ftv.screensaver             # promo screensaver
+com.amazon.systemnotices               # Amazon system notices
+
+# --- telemetry, logging, crash reporting ---
+com.amazon.tv.fw.metrics
+com.amazon.wirelessmetrics.service
+com.amazon.perfc
+com.amazon.perfcollection
+com.amazon.dp.logger
+com.amazon.logan
+com.amazon.neo.minerva.logcat
+com.amazon.ceviche                     # analytics pipeline; its config names unagi-*.amazon.com as the upload target
+com.amazon.connectivitydiag
+com.amazon.hedwig                      # watch time / engagement
+com.amazon.tigris
+com.amazon.spiderpork                  # metrics transport
+com.amazon.tv.developer.dataservice
+
+# --- experiments and remote config ---
+com.amazon.ale
+com.amazon.katoch
+com.amazon.device_remote_config_sync_service
+
+# --- Alexa and the microphone app ---
+com.amazon.aca                         # the app that owns the mic
+com.amazon.alexa.datastore.app
+com.amazon.alexadirectivebrokerservice
+com.amazon.alexamediaplayer.runtime.ftv
+com.amazon.alexa.externalmediaplayer.fireos
+com.amazon.tv.alexaalerts
+com.amazon.tv.alexanotifications
+com.amazon.firetv.androidskillconnectioncapability
+com.amazon.audiohome
+com.amazon.rtcsessioncontroller        # Alexa calling
+
+# --- OTA helpers (the real updater is protected, see protected.txt) ---
+
+# --- bloat, stubs, leftover UIs ---
+com.amazon.gamehub
+com.amazon.bueller.music
+com.amazon.bueller.photos
+com.amazon.tv.democontent.provider
+com.amazon.storm.lightning.tutorial
+com.amazon.tmm.tutorial
+com.amazon.tv.releasenotes
+com.amazon.tv.website_launcher
+com.amazon.tv.support
+com.amazon.tv.easyupgrade
+com.amazon.tv.localgallery
+com.amazon.tv.notificationcenter
+com.amazon.uxnotification
+com.amazon.cloud9                      # Silk browser
+com.amazon.dummy.alarmclock
+com.amazon.dummy.calendar
+com.amazon.dummy.contacts
+com.amazon.dummy.gallery
+com.amazon.dummy.music
+com.amazon.dummy.settings
+com.android.printspooler
+com.android.bips
+com.android.traceur
+com.android.nfc
+com.amazon.shoptv.firetv.client # interface de compras encontrada em AFTSS

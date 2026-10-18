@@ -1,0 +1,5 @@
+# Somente com --block-updates; restricoes sem desativar pacotes protegidos.
+com.amazon.device.rdmapplication
+com.amazon.device.software.ota
+com.amazon.device.software.ota.override
+com.amazon.tv.forcedotaupdater.v2

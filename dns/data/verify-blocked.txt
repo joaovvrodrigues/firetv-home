@@ -1,0 +1,8 @@
+# Hosts verify.sh expects to be blocked. All of these were read out of Fire OS
+# system APKs, so they apply to the whole family, not one model.
+softwareupdates.amazon.com
+arcus-uswest.amazon.com
+unagi-zaz.amazon.com
+unagi-na.amazon.com
+api.amazonalexa.com
+device-messaging-na.amazon.com

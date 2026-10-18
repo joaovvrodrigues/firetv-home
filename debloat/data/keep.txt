@@ -1,0 +1,7 @@
+# Apps e integracoes preservados sempre, alem de todos os apps de terceiros.
+com.amazon.csm.htmlruntime
+com.amazon.firebat
+com.amazon.spotify.mediabrowserservice
+com.amazon.tv.ottssocompanionapp
+com.amazon.vizzini.ftvcds
+com.amazon.wha.mediabrowserservice

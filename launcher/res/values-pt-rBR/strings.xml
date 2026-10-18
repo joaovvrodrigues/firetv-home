@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">dumbtv</string>
+    <string name="guard_label">Botão de início do dumbtv</string>
+    <string name="guard_description">Abre o dumbtv ao pressionar o botão de início. Não lê o conteúdo da tela e não acessa a internet.</string>
+    <string name="options">Opções</string>
+    <string name="settings">Configurações</string>
+    <string name="apps">Aplicativos</string>
+    <string name="inputs">Entradas</string>
+    <string name="open_failed">Não foi possível abrir</string>
+    <string name="move">Mover</string>
+    <string name="rename">Renomear</string>
+    <string name="hide">Ocultar</string>
+    <string name="app_info">Informações do aplicativo</string>
+    <string name="hidden_hint">Ocultado. Para exibir novamente, abra Opções.</string>
+    <string name="save">Salvar</string>
+    <string name="original">Original</string>
+    <string name="cancel">Cancelar</string>
+    <string name="done">Concluir</string>
+    <string name="apps_on_home">Aplicativos na tela inicial</string>
+    <string name="inputs_on_home">Entradas na tela inicial</string>
+    <string name="reset_layout">Restaurar ordem, nomes e itens ocultos</string>
+    <string name="amazon_home">Abrir a tela inicial da Amazon</string>
+    <string name="about" formatted="true">Arquivo de configurações: %1$s\nPapel de parede: coloque wallpaper.jpg nessa pasta e selecione Fundo › Imagem\nSem acesso à internet. Sem rastreamento, anúncios ou contas.\nPaisagem: Chensiyuan / Wikimedia Commons, CC BY-SA 4.0. Visual inspirado em tv-home, Mihir Gupta (MIT).</string>
+    <string name="reset_title">Restaurar a organização da tela inicial?</string>
+    <string name="reset_message">A ordem, os nomes e os itens ocultos voltarão ao padrão. As cores e os tamanhos serão mantidos.</string>
+    <string name="reset">Restaurar</string>
+    <string name="accent_color">Cor de destaque</string>
+    <string name="tile_size">Tamanho dos ícones</string>
+    <string name="app_names">Nomes dos aplicativos</string>
+    <string name="clock">Relógio</string>
+    <string name="inputs_row">Linha de entradas</string>
+    <string name="background">Fundo</string>
+    <string name="image_dim">Escurecimento da imagem</string>
+    <string-array name="accent_names">
+        <item>Branco</item>
+        <item>Azul</item>
+        <item>Ciano</item>
+        <item>Verde</item>
+        <item>Âmbar</item>
+        <item>Vermelho</item>
+        <item>Rosa</item>
+        <item>Violeta</item>
+    </string-array>
+    <string-array name="tile_names">
+        <item>Pequeno</item>
+        <item>Médio</item>
+        <item>Grande</item>
+    </string-array>
+    <string-array name="label_names">
+        <item>Ao selecionar</item>
+        <item>Sempre</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="clock_names">
+        <item>Sistema</item>
+        <item>24 horas</item>
+        <item>12 horas</item>
+    </string-array>
+    <string-array name="input_names">
+        <item>Visível</item>
+        <item>Oculta</item>
+    </string-array>
+    <string-array name="background_names">
+        <item>Preto</item>
+        <item>Grafite</item>
+        <item>Azul-escuro</item>
+        <item>Imagem</item>
+        <item>Paisagem</item>
+    </string-array>
+    <string-array name="dim_names">
+        <item>0%</item>
+        <item>20%</item>
+        <item>40%</item>
+        <item>60%</item>
+        <item>80%</item>
+    </string-array>
+    <string name="good_morning">BOM DIA</string>
+    <string name="good_afternoon">BOA TARDE</string>
+    <string name="good_evening">BOA NOITE</string>
+    <string name="dock_hint">%1$d APLICATIVOS  ·  ◀ ▶ NAVEGAR  ·  MENU ORGANIZAR</string>
+</resources>
